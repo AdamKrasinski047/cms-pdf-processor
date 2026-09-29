@@ -46,7 +46,7 @@ export default function Home() {
     formData.append("toc_page", tocPage);
 
     try {
-      const res = await fetch("http://localhost:8000/api/extract-toc", {
+      const res = await fetch("https://cms-pdf-processor.onrender.com/api/extract-toc", {
         method: "POST",
         body: formData,
       });
@@ -96,7 +96,7 @@ export default function Home() {
     formData.append("end_page", article.end_page.toString());
 
     try {
-      const res = await fetch("http://localhost:8000/api/process-article", {
+      const res = await fetch("https://cms-pdf-processor.onrender.com/api/process-article", {
         method: "POST",
         body: formData,
       });
