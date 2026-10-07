@@ -67,8 +67,6 @@ Wycinek PDF trafia do modelu LLM (Gemini 3.6 Flash) z rygorystycznym promptem us
 ### 5. Zwrot gotowego kodu do CMS
 Wygenerowany i oczyszczony ze znaczników Markdown ciąg HTML trafia z powrotem do interfejsu w Next.js. Redaktor za pomocą jednego kliknięcia kopiuje gotowy kod do schowka i wkleja bezpośrednio do edytora w systemie CMS, pomijając etap żmudnego, ręcznego przepisywania i formatowania.
 
-Poniżej przygotowałem dla Ciebie gotową, szczegółową sekcję do wklejenia do pliku `README.md`. Zamiast opisywać dosłownie każdą pojedynczą linijkę (co sprawiłoby, że plik miałby 20 stron), podzieliłem kod na logiczne bloki. Dzięki temu każdy, kto zajrzy do dokumentacji, natychmiast zrozumie, jak przepływają dane.
-
 
 ## 🐍 Dokumentacja kodu: `backend/main.py`
 
